@@ -30,6 +30,9 @@ brickproof configure
 
 ```
 
+This command will prompt you to enter your databricks workspace url, personal access token, and profile name. These
+will be written out to a `.bprc` file in your local directory. 
+
 ### Run Brickproof
 
 To run a brickproof testing event, run:
@@ -52,6 +55,3 @@ To get the version of your brickproof instance, run:
 brickproof version
 
 ```
-
-This command will prompt you to enter your databricks workspace url, personal access token, and profile name. These
-will be written out to a `.bprc` file in your local directory. 
