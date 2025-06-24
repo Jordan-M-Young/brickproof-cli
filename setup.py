@@ -21,7 +21,7 @@ setup(
     classifiers=["Programming Language :: Python :: 3", "Framework :: Pytest"],
     entry_points={
         "console_scripts": [
-            "bpcli = brickproof_cli.__main__:main"
+            "brickproof = brickproof_cli.__main__:main"
         ]
     },
 )
