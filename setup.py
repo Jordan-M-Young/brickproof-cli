@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-from brickproof.version import VERSION
 
 DESCRIPTION = "brickproof-cli"
 LONG_DESCRIPTION ="The CLI extension of the brickproof testing library."
@@ -9,7 +8,7 @@ LONG_DESCRIPTION ="The CLI extension of the brickproof testing library."
 setup(
     # the name must match the folder name 'verysimplemodule'
     name="brickproof-cli",
-    version=VERSION,
+    version="0.0.2",
     author="Jordan-M-Young",
     author_email="jordan.m.young0@gmail.com",
     description=DESCRIPTION,
